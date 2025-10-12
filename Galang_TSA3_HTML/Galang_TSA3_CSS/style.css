@@ -3,8 +3,9 @@
     background-color: #FCF7EB;
 }
 
-header 
-{text-align: center;}
+header {
+    text-align: center;
+}
 
 header h1 {
     font-size: 2.8em;
@@ -16,26 +17,32 @@ header h3 {
     font-weight: bold;
 }
 
-h1 
-{
+header a {
+    color: #212842;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+div img {
+    align-items: center;
+    text-align: center;
+}
+
+a:hover {
+    color: #C9DCED;
+}
+h1 {
 background-color: #212842;
 color: #FCF7EB;
 text-align: center;
 }
 
-h3, h4 
-{
+h3, h4 {
 text-align: center;
 }
 
-p 
-{
+p {
     justify-content: center;
     text-align: center;
     line-height: 1.5;
-}
-
-#mybias section h4 
-{
-    align-items: left;
 }
