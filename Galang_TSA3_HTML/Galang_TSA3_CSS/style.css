@@ -3,13 +3,39 @@
     background-color: #FCF7EB;
 }
 
-body {
-justify-content: center;
-align-items: stretch;
+header 
+{text-align: center;}
+
+header h1 {
+    font-size: 2.8em;
 }
 
-h1 {
+header h3 {
+    background-color: #C9DCED;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1 
+{
 background-color: #212842;
 color: #FCF7EB;
 text-align: center;
+}
+
+h3, h4 
+{
+text-align: center;
+}
+
+p 
+{
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+#mybias section h4 
+{
+    align-items: left;
 }
