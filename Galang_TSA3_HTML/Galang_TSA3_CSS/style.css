@@ -1,19 +1,32 @@
+/*APPLIES TO ALL*/
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #FCF7EB;
+    
 }
 
+h3, h4 {
+text-align: center;
+}
+
+
+/*FOR HEADER CONTENT*/
+h1 {
+background-color: #212842;
+color: #FCF7EB;
+text-align: center;
+}
 header {
     text-align: center;
 }
 
 header h1 {
-    font-size: 2.8em;
+    font-size: 70px;
 }
 
 header h3 {
     background-color: #C9DCED;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -21,28 +34,37 @@ header a {
     color: #212842;
     text-decoration: underline;
     font-weight: bold;
+    font-size: 20px;
 }
 
 div img {
     align-items: center;
-    text-align: center;
-}
+} 
 
 a:hover {
     color: #C9DCED;
 }
-h1 {
-background-color: #212842;
-color: #FCF7EB;
-text-align: center;
-}
 
-h3, h4 {
-text-align: center;
-}
+/*FOR HEADER CONTENT*/
 
+
+
+/*FOR BODY CONTENT*/
 p {
     justify-content: center;
     text-align: center;
     line-height: 1.5;
+    font-size: 18px;
+}
+
+.h31, .h32, .h33 {
+    font-size: 30px;
+}
+
+.h41, .h42, .h43 {
+    font-size: 25px;
+}
+
+.martin, img {
+    font-size: 23px;
 }
