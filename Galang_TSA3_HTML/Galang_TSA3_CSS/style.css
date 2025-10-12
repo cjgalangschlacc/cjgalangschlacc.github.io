@@ -2,7 +2,6 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #FCF7EB;
-    
 }
 
 h3, h4 {
@@ -15,7 +14,9 @@ h1 {
 background-color: #212842;
 color: #FCF7EB;
 text-align: center;
+padding: 15px;
 }
+
 header {
     text-align: center;
 }
@@ -28,6 +29,7 @@ header h3 {
     background-color: #C9DCED;
     font-size: 30px;
     font-weight: bold;
+    padding: 10px;
 }
 
 header a {
@@ -65,6 +67,11 @@ p {
     font-size: 25px;
 }
 
-.martin, img {
-    font-size: 23px;
+.martin {
+       font-size: 23px;
+ 
+}
+
+.h41 {
+    margin-top: 50px 0;
 }
