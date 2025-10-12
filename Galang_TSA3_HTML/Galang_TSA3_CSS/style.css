@@ -3,6 +3,14 @@
     background-color: #FCF7EB;
 }
 
+body{
+justify-content: center;
+align-items: stretch;
+}
+
 h1 {
 background-color: #212842;
+color: #FCF7EB;
+text-align: center;
+background-size: contain;
 }
