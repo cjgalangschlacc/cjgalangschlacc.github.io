@@ -1,25 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-    line-height: 1.6;
-}
-
-header {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    border-bottom: 3px solid #667eea;
-}
-
 header h1 {
     font-size: 3.5em;
     font-weight: 700;
@@ -110,17 +88,6 @@ section {
 }
 
 /* Table Styling */
-.biography-table {
-    width: 100%;
-    max-width: 800px;
-    margin: 30px auto;
-    border-collapse: collapse;
-    background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
 .biography-table th {
     background: linear-gradient(45deg, #667eea, #764ba2);
     color: white;
@@ -146,12 +113,6 @@ section {
 }
 
 /* List Styling */
-ul {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
-
 li {
     margin: 15px 0;
     padding: 15px 20px;
@@ -193,15 +154,6 @@ img:hover {
 }
 
 /* Footer Styling */
-footer {
-    background: rgba(255, 255, 255, 0.95);
-    text-align: center;
-    padding: 30px;
-    margin-top: 50px;
-    border-top: 3px solid #667eea;
-    backdrop-filter: blur(10px);
-}
-
 footer p {
     color: #666;
     font-weight: 500;
