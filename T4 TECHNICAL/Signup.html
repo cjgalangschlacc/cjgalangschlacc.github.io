@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORTIS Fan Membership Log in/Sign up</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sign in</h1>
+        <p>Not an official member yet? Sign up now!</p>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="mname">Middle name:</label>
+                <input type="text" id="mname" name="mname"><br><br>
+
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="gender">Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                    <option value="rathernotspecify">Rather not specify</option>
+                </select><br><br>
+
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+
+                <input type="submit" value="Submit">
+
+            </form>
+    </header>
+</body>
+</html>
