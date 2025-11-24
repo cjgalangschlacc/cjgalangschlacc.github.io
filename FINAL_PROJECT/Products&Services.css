@@ -77,11 +77,14 @@ h3 {
 p {
   font-family: var(--font-body);
   font-size: 1rem;
-  text-align: justify; /* Body text justified */
+  text-align: center; /* Body text justified */
   color: var(--text-muted);
   margin-bottom: 20px;
 }
 
+/* =========================
+   HEADER NAVIGATION STYLES
+   ========================= */
 header nav {
     text-align: center;
     margin: 30px 0;
@@ -124,6 +127,8 @@ main img {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 main img:hover {
@@ -131,6 +136,9 @@ main img:hover {
 }
 
 
+/* =========================
+   PRODUCTS & SERVICES STYLES
+   ========================= */
 .nav {
   background: none;
   border: 2px solid #000;
@@ -147,34 +155,93 @@ main img:hover {
   overflow-x: auto;
   scroll-behavior: smooth;
   align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .column {
   background: #fff;
-  width: 200px;
+  width: 300px;
   flex-shrink: 0;
   text-align: center;
   align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .column img {
   width: 100%;
   height: auto;
   display: block;
+  flex: 1;
+  max-width: 500px;
 }
 
 .column h3 {
+  font-size: 1em;
   margin: 10px 0 5px;
+  color: #555;
+  text-align: left;
+}
+
+.column h3:hover {
+    color: var(--text-dark);
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .column p {
   font-size: 14px;
   color: #555;
+  text-align: left;
 }
 
+.column button{
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 10px;
+    color: #555;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border-color: var(--color-bg);
+}
+
+.column button:hover {
+    background-color: var(--color-medium);
+    color: #fffdfb;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+section {
+    text-align: center;
+}
+#trade a {
+    color: var(--text-dark);
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 0 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1.4em;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background-color: #b0a99f;
+    color: #fffdfb;
+}
+
+#trade a:hover {
+    background: linear-gradient(45deg, #fffdfb, #f2f0ec);
+    color: #1a1a1a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(26, 26, 26, 0.4);
+}
 
 /* =========================
-   FOOTER — CLEAN & CLASSY
+   FOOTER STYLES
    ========================= */
 /* Footer Styles */
 .footer {
