@@ -1,6 +1,8 @@
 /* =========================
    ATELIER ARCHIVES — LUXE MINIMALIST THEME
    ========================= */
+
+
 :root {
   /* Fonts */
   --font-heading: 'Poppins', sans-serif;
@@ -28,11 +30,12 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: var(--color-light);
+  background-color: var(--color-bg);
   color: var(--text-dark);
   line-height: 1.8;
   font-family: var(--font-body), "Segoe UI", Roboto, sans-serif;
 }
+
 
 .container {
   max-width: var(--max-width);
@@ -50,18 +53,10 @@ h1, h2, h3 {
   line-height: 1.2;
   margin-bottom: 18px;
   letter-spacing: 0.5px;
-  text-align: center;            
-  color: var(--color-medium);    
+  text-align: center;            /* Center all headings */
+  color: var(--color-medium);    /* Accent color for all headings */
 }
 
-h1 {
-  font-size: 2.5rem; /* main title */
-  margin-top: 20px;
-  margin-bottom: 30px;
-  color: var(--text-dark);
-  padding: 50px;
-  background-color: #fffdfb;
-}
 
 h2 {
   font-size: 2rem; /* main section headers */
@@ -69,10 +64,12 @@ h2 {
   margin-bottom: 20px;
 }
 
+
 h3 {
   font-size: 1.4rem; /* subheaders */
   margin-bottom: 12px;
 }
+
 
 p {
   font-family: var(--font-body);
@@ -82,94 +79,46 @@ p {
   margin-bottom: 20px;
 }
 
-header nav {
-    text-align: center;
-    margin: 30px 0;
-    padding: 10px;
-}
-header nav a {
-    color: var(--text-dark);
-    text-decoration: none;
-    padding: 12px 25px;
-    margin: 0 5px;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 1.4em;
-    transition: all 0.3s ease;
-    position: relative;
-    overflow: hidden;
-    background-color: #b0a99f;
-    color: #fffdfb;
-}
 
-header nav a:hover {
-    background: linear-gradient(45deg, #fffdfb, #f2f0ec);
-    color: #1a1a1a;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(26, 26, 26, 0.4);
-}
-
-/*Section styling*/
+/* =========================
+   SECTIONS — ELEGANT CARDS
+   ========================= */
 section {
-    margin: 50px 0;
-    padding: 30px;
-    background: #fffdfb;
-    border-radius: 15px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
-}
-
-/* Image styling */
-main img {
-    border-radius: 5px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    align-items: center;
-}
-
-main img:hover {
-    transform: scale(1.05);
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  padding: 24px 28px;
+  margin-bottom: 35px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.05); /* airy shadow for depth */
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 
-.nav {
-  background: none;
-  border: 2px solid #000;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  cursor: pointer;
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 
-.row {
-  display: flex;
-  gap: 50px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  align-items: center;
+
+ul {
+  padding-left: 24px;
+  margin-bottom: 20px;
 }
 
-.column {
-  background: #fff;
-  width: 200px;
-  flex-shrink: 0;
-  text-align: center;
-  align-items: center;
+
+li {
+  margin-bottom: 10px;
+  color: var(--text-muted);
+  font-size: 1rem;
 }
 
-.column img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
-.column h3 {
-  margin: 10px 0 5px;
-}
-
-.column p {
-  font-size: 14px;
-  color: #555;
+/* =========================
+   ASIDE / CONTACT
+   ========================= */
+aside section {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  padding: 20px 24px;
 }
 
 
@@ -183,7 +132,13 @@ main img:hover {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
+
+
+  /* ✅ Make footer full-width */
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
+
 
 .footer a {
   color: #fff;
@@ -191,15 +146,18 @@ main img:hover {
   margin: 0 10px;
 }
 
+
 .footer a:hover {
   text-decoration: underline;
 }
+
 
 .footer-top {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .footer-nav {
   display: flex;
@@ -209,6 +167,7 @@ main img:hover {
   font-size: 16px;
 }
 
+
 .footer-logo {
   color: #fff;
   padding: 10px;
@@ -216,11 +175,13 @@ main img:hover {
   border-radius: 4px;
 }
 
+
 hr {
   border: none;
   border-top: 1px solid #dcd6cf;
   margin: 20px 0;
 }
+
 
 .footer-bottom {
   display: flex;
@@ -230,6 +191,7 @@ hr {
   gap: 20px;
 }
 
+
 .footer-left {
   display: flex;
   flex-wrap: wrap;
@@ -237,11 +199,51 @@ hr {
   gap: 10px;
 }
 
+
 .footer-icons a {
   margin: 0 5px;
 }
 
+
 .footer-icons {
   display: flex;
   align-items: center;
+}
+
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+
+  section {
+    padding: 18px 20px;
+  }
+
+
+  .container {
+    padding: 16px;
+  }
+}
+
+
+/* =========================
+   UX & INTERACTIONS
+   ========================= */
+html {
+  scroll-behavior: smooth;
+}
+
+
+a {
+  transition: color 0.3s, letter-spacing 0.3s;
 }
