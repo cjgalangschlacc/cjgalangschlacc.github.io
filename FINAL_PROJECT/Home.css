@@ -1,0 +1,298 @@
+/* =========================
+   ATELIER ARCHIVES — LUXE MINIMALIST THEME
+   ========================= */
+
+
+:root {
+  /* Fonts */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+
+
+
+  /* Colors */
+  --color-light: #f2f0ec;  /* lighter, airy background */
+  --color-medium: #b0a99f; /* warm accent */
+  --color-bg: #fffdfb;     /* soft off-white */
+  --text-dark: #1a1a1a;    /* deep charcoal for luxury feel */
+  --text-muted: #555;      /* subtle secondary text */
+
+
+
+
+  /* Layout */
+  --max-width: 1000px;
+  --pad: 24px;
+  --border-radius: 10px;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    background-color: #eae9e0;
+    padding: 1rem 3rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+
+.nav-links a:hover {
+    color: #777;
+}
+
+
+/* Search Bar */
+.nav-search {
+    display: flex;
+    align-items: center;
+    margin-left: 2.5rem;
+}
+
+
+.search-input {
+    padding: 6px 12px;
+    border: 1px solid #ccc7b4;
+    border-radius: 20px;
+    background-color: #f4f3ef;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    width: 220px;  
+    transition: all 0.3s ease;
+}
+
+
+.search-input:focus {
+    outline: none;
+    border-color: #b0a99f;
+    background-color: #fff;
+    width: 260px;  
+}
+
+
+.search-input:hover {
+    background-color: #f0eee9;
+}
+
+
+.logo-placeholder {
+    background-color: #ccc7b4;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.highlight {
+    background-color: rgb(237, 175, 114);
+    padding: 2px;
+    border-radius: 3px;
+}
+
+
+/* Logo Styles */
+.logo-container {
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+
+.logo-container:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+
+.logo-img {
+    height: 65px;
+    width: auto;
+    border-radius: 4px;
+}
+
+
+/* Sections */
+section {
+    padding: 2rem 3rem;
+}
+
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Scrollable containers */
+.scroll-container {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+}
+
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #d1d1c7;
+    border-radius: 5px;
+}
+
+
+/* Cards */
+.card {
+    flex: 0 0 auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+.card h3 {
+    font-size: 1.3rem;
+    margin: 0.7rem 1rem 0.3rem;
+}
+
+
+.card p {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    color: #333;
+    margin: 0 1rem 1rem;
+    text-align: justify;
+}
+
+
+/* Curator Cards */
+.curator-card {
+    transition: all 0.3s ease;
+}
+
+
+.curator-card.active {
+    transform: scale(1.05);
+    background-color: #f7f7f3;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #b0a99f;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+
+
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: 16px;
+}
+
+
+.footer-logo {
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+hr {
+  border: none;
+  border-top: 1px solid #dcd6cf;
+  margin: 20px 0;
+}
+
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.footer-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.footer-icons a {
+  margin: 0 5px;
+}
+
+
+.footer-icons {
+  display: flex;
+  align-items: center;
+}
