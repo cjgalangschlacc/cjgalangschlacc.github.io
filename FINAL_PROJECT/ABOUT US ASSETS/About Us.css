@@ -2,9 +2,11 @@
    ATELIER ARCHIVES — LUXE MINIMALIST THEME
    ========================= */
 
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Lato:wght@300;400;700&family=Poppins:wght@400;700&display=swap');
 
 :root {
   /* Fonts */
+  --font-brand: 'Prata', serif;
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Lato', sans-serif;
 
@@ -21,6 +23,8 @@
   --max-width: 1000px;
   --pad: 24px;
   --border-radius: 10px;
+
+  --title-height: 92px;
 }
 
 
@@ -30,7 +34,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: var(--color-bg);
+  background-color: var(--color-light);
   color: var(--text-dark);
   line-height: 1.8;
   font-family: var(--font-body), "Segoe UI", Roboto, sans-serif;
@@ -79,6 +83,31 @@ p {
   margin-bottom: 20px;
 }
 
+/* Full-width Title (Login & Signup identical) */
+.form-title-container {
+
+  padding: 18px;  
+  width: 100%;
+  height: var(--title-height);
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-top: 1px solid rgba(0,0,0,0.05);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  flex-shrink: 0;
+}
+
+
+.form-title {
+  font-family: var(--font-brand);
+  font-size: 50px;
+  letter-spacing: 3px;
+  color: var(--text-dark);
+  margin: 0;
+  font-weight: 400; /* Not bold */
+}
 
 /* =========================
    SECTIONS — ELEGANT CARDS
