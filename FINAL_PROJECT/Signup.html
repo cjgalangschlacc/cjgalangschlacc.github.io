@@ -6,9 +6,36 @@
   <title>Signup Form</title>
   <link rel="stylesheet" href="Signup&Login.css">
   <script src="Signup&Login.js" defer></script>
+  <link rel="stylesheet" href="Header.css">
+  <script src="Header.js"></script>
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products&Services.html">Products & Services</a></li>
+                <li><a href="Editorial.html">Editorial</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+
+
+            <!-- Search Bar -->
+                <li class="nav-search">
+                    <input type="text" placeholder="Search..." class="search-input" onkeydown="if(event.key === 'Enter') searchPage()">
+                </li>
+
+
+                <li><a href="Signup.html">Sign Up/Log In</a></li>
+            </ul>
+
+
+            <a href="Home.html" class="logo-container" id="logo">
+                <img src="FOOTER ICONS/[0] AA LOGO BLACK LOGO [cropped].png" alt="Atelier Archives Logo" class="logo-img">
+            </a>
+        </nav>
+    </header>
 
   <!-- Full-width Title -->
   <div class="form-title-container">

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Footer.css">
     <link rel="stylesheet" href="Products&Services.css">
+    <link rel="stylesheet" href="Header.css">
+    <script src="Header.js" defer></script>
     <title>Atelier Archives | Products and Services</title>
 
   <!-- GOOGLE FONTS -->
@@ -14,9 +16,37 @@
 
 </head>
 
- <!-- Products -->
+
 <body>
-    <header>
+
+   <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Products&Services.html">Products & Services</a></li>
+                <li><a href="Editorial.html">Editorial</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+
+
+            <!-- Search Bar -->
+                <li class="nav-search">
+                    <input type="text" placeholder="Search..." class="search-input" onkeydown="if(event.key === 'Enter') searchPage()">
+                </li>
+
+
+                <li><a href="Signup.html">Sign Up/Log In</a></li>
+            </ul>
+
+
+            <a href="Home.html" class="logo-container" id="logo">
+                <img src="FOOTER ICONS/[0] AA LOGO BLACK LOGO [cropped].png" alt="Atelier Archives Logo" class="logo-img">
+            </a>
+        </nav>
+    </header>
+
+   <!-- Products -->
+    <header class="products">
         <h1>Products and Services</h1>
         <nav>
             <a href="#paintings">Paintings</a>
