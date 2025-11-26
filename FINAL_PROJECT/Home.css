@@ -27,6 +27,23 @@
   --border-radius: 10px;
 }
 
+/* =========================
+   GLOBAL LAYOUT
+   ========================= */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-light);
+  color: var(--text-dark);
+  line-height: 1.8;
+  font-family: var(--font-body), "Segoe UI", Roboto, sans-serif;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--pad);
+}
 
 /* Navigation Bar */
 .navbar {

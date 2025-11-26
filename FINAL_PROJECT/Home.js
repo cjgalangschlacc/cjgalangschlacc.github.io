@@ -12,14 +12,6 @@ function searchPage() {
 }
 
 
-// Featured images redirect
-document.querySelectorAll('.featured .card').forEach(card => {
-    card.addEventListener('click', () => {
-        window.location.href = "products.html"; // Redirect to Products & Services page
-    });
-});
-
-
 // Curator pics click behavior
 document.querySelectorAll('.curator-card').forEach(card => {
     card.addEventListener('click', () => {
