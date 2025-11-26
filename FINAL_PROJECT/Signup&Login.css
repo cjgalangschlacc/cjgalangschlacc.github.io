@@ -140,7 +140,6 @@ html, body {
   flex-shrink: 0;
 }
 
-
 .form-title {
   font-family: var(--font-brand);
   font-size: 50px;
@@ -149,7 +148,6 @@ html, body {
   margin: 0;
   font-weight: 400; /* Not bold */
 }
-
 
 /* Page content container */
 .page-content {
@@ -162,7 +160,6 @@ html, body {
   box-sizing: border-box;
 }
 
-
 /* Form subtitle */
 .form-subtitle {
   font-family: var(--font-heading);
@@ -172,7 +169,6 @@ html, body {
   margin-bottom: 40px;
   text-align: center;
 }
-
 
 /* Auth form */
 .auth-form-container {
@@ -186,11 +182,9 @@ html, body {
   text-align: left;
 }
 
-
 .form-group {
   margin-bottom: 25px;
 }
-
 
 label {
   display: block;
@@ -200,7 +194,6 @@ label {
   font-size: 0.95rem;
   text-transform: uppercase;
 }
-
 
 input[type="text"],
 input[type="password"],
@@ -216,12 +209,10 @@ input[type="email"] {
   transition: border-bottom-color 0.3s;
 }
 
-
 input:focus {
   outline: none;
   border-bottom-color: var(--color-medium);
 }
-
 
 .submit-btn {
   width: 100%;
@@ -239,11 +230,9 @@ input:focus {
   margin-top: 10px;
 }
 
-
 .submit-btn:hover {
   background-color: #928a80;
 }
-
 
 .form-link-text {
   font-size: 14px;
@@ -252,13 +241,11 @@ input:focus {
   text-align: center;
 }
 
-
 .form-link-text a {
   color: var(--color-medium);
   font-weight: 700;
   text-decoration: none;
 }
-
 
 .form-link-text a:hover {
   color: var(--text-dark);
@@ -276,25 +263,21 @@ input:focus {
   flex-shrink: 0;
 }
 
-
 .footer a {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
 }
 
-
 .footer a:hover {
   text-decoration: underline;
 }
-
 
 .footer-top {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .footer-nav {
   display: flex;
@@ -304,7 +287,6 @@ input:focus {
   font-size: 16px;
 }
 
-
 .footer-logo {
   color: #fff;
   padding: 10px;
@@ -312,13 +294,11 @@ input:focus {
   border-radius: 4px;
 }
 
-
 hr {
   border: none;
   border-top: 1px solid #dcd6cf;
   margin: 20px 0;
 }
-
 
 .footer-bottom {
   display: flex;
@@ -328,7 +308,6 @@ hr {
   gap: 20px;
 }
 
-
 .footer-left {
   display: flex;
   flex-wrap: wrap;
@@ -336,11 +315,9 @@ hr {
   gap: 10px;
 }
 
-
 .footer-icons a {
   margin: 0 5px;
 }
-
 
 .footer-icons {
   display: flex;

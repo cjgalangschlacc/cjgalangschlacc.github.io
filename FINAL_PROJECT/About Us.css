@@ -40,7 +40,6 @@ html, body {
   font-family: var(--font-body), "Segoe UI", Roboto, sans-serif;
 }
 
-
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -53,13 +52,11 @@ html, body {
     padding: 1rem 3rem;
 }
 
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .nav-links {
     list-style: none;
@@ -67,14 +64,12 @@ nav {
     gap: 3rem;
 }
 
-
 .nav-links a {
     text-decoration: none;
     color: #111;
     font-size: 1.1rem;
     transition: color 0.3s;
 }
-
 
 .nav-links a:hover {
     color: #777;
@@ -88,7 +83,6 @@ nav {
     margin-left: 2.5rem;
 }
 
-
 .search-input {
     padding: 6px 12px;
     border: 1px solid #ccc7b4;
@@ -100,7 +94,6 @@ nav {
     transition: all 0.3s ease;
 }
 
-
 .search-input:focus {
     outline: none;
     border-color: #b0a99f;
@@ -108,11 +101,9 @@ nav {
     width: 260px;  
 }
 
-
 .search-input:hover {
     background-color: #f0eee9;
 }
-
 
 .logo-placeholder {
     background-color: #ccc7b4;
@@ -120,7 +111,6 @@ nav {
     border-radius: 4px;
     font-weight: bold;
 }
-
 
 .highlight {
     background-color: rgb(237, 175, 114);
@@ -135,12 +125,10 @@ nav {
     transition: transform 0.3s, filter 0.3s;
 }
 
-
 .logo-container:hover {
     transform: scale(1.05);
     filter: brightness(1.2);
 }
-
 
 .logo-img {
     height: 65px;
@@ -161,19 +149,16 @@ h1, h2, h3 {
   color: var(--color-medium);    /* Accent color for all headings */
 }
 
-
 h2 {
   font-size: 2rem; /* main section headers */
   margin-top: 40px;
   margin-bottom: 20px;
 }
 
-
 h3 {
   font-size: 1.4rem; /* subheaders */
   margin-bottom: 12px;
 }
-
 
 p {
   font-family: var(--font-body);
@@ -199,7 +184,6 @@ p {
   flex-shrink: 0;
 }
 
-
 .form-title {
   font-family: var(--font-brand);
   font-size: 50px;
@@ -222,18 +206,15 @@ section {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-
 section:hover {
   transform: translateY(-3px);
   box-shadow: 0 12px 30px rgba(0,0,0,0.08);
 }
 
-
 ul {
   padding-left: 24px;
   margin-bottom: 20px;
 }
-
 
 li {
   margin-bottom: 10px;
@@ -268,25 +249,21 @@ aside section {
   margin-left: calc(-50vw + 50%);
 }
 
-
 .footer a {
   color: #fff;
   text-decoration: none;
   margin: 0 10px;
 }
 
-
 .footer a:hover {
   text-decoration: underline;
 }
-
 
 .footer-top {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 .footer-nav {
   display: flex;
@@ -296,7 +273,6 @@ aside section {
   font-size: 16px;
 }
 
-
 .footer-logo {
   color: #fff;
   padding: 10px;
@@ -304,13 +280,11 @@ aside section {
   border-radius: 4px;
 }
 
-
 hr {
   border: none;
   border-top: 1px solid #dcd6cf;
   margin: 20px 0;
 }
-
 
 .footer-bottom {
   display: flex;
@@ -320,7 +294,6 @@ hr {
   gap: 20px;
 }
 
-
 .footer-left {
   display: flex;
   flex-wrap: wrap;
@@ -328,11 +301,9 @@ hr {
   gap: 10px;
 }
 
-
 .footer-icons a {
   margin: 0 5px;
 }
-
 
 .footer-icons {
   display: flex;
